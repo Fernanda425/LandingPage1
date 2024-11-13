@@ -10,9 +10,13 @@
     align-items: center;
     margin-top: -48vh;
     flex-direction: column;
-  
+    font-size: larger;
     
-    
+
+}
+
+h1{
+   color: aliceblue;
 }
 
 
@@ -20,13 +24,34 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
+    
+}
+
+.imgshopify{
+    margin-top: 0.5vh;
+}
+
+.primriroInput{
+    
+    height: 40px;
+    border-radius: 3px;
+  border: none;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
     
 }
 
 
+
 svg{
     height: 50vh;
-    overflow: hidden;
+    overflow: hidden !important;
     width: 98.5vw;
   
   
@@ -56,14 +81,66 @@ svg{
 .ImagemFinal{
     justify-content: center;
     display: flex;
+    height: 12vh;
+    
+    
 }
 
 .autor{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-top: 10vh;
+    width: 30vw;
+    margin-left: 35vw;
+   font-size: larger;
+}
+
+.SegundoAutor{
+    margin-left: 38vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3vh;
+    
+
+}
+    
+
+    
+.containeacordion{
+    background-color: rgb(230, 221, 221);
+    height: 60vh;
+    
+}
+
+.accordion{
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: 30vw;
+    border: none;
+
+}
+
+
+hr{
+    width: 59vw;
+    margin-left: 20vw;
+}
+
+#Segundobotao{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 6vh;
+    padding: 30px;
     
    
-   
     
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
 }
